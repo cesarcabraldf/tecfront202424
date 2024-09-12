@@ -1,11 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de Formulários</title>
     <title>Document</title>
 </head>
+
 <body>
-    
+
+    <h1>Tabela:</h1>
+
+    <table>
+        <th>Cabeçalho da coluna 1</th>
+        <tr>
+            <td>Coluna 2</td>
+            <td>Coluna 1</td>
+            <td>Coluna 3</td>
+        </tr>
+        <tr>
+            <td>Conteudo11 </td>
+            <td>Conteúdo 21</td>
+        </tr>
+        <tr>
+            <td>Conteudo 12</td>
+            <td>Conteudo 22</td>
+        </tr>
+        <tr>
+            <td>Conteudo 15</td>
+        </tr>
+    </table>
+
+    <h1>Formulario:</h1>
+
+    <form autocomplete="on" action="" method="get">
+        <label for="nomeCompleto">Nome: </label>
+        <input type="text" name="nomeCompleto"
+        placeholder="Digite seu nome completo."
+        maxlength="10">
+        <br>
+        Site: <input type="url" name="site">
+
+        <br>
+        <br>
+
+            <input type="submit" value="Vai!">
+        
+
+    </form>
 </body>
+
 </html>
